@@ -1,0 +1,17 @@
+{
+    "name": "aws.js"
+  , "version": "0.0.1"
+  , "description": "Dead simple AWS client"
+  , "author": "Jonathan Leibiusky <ionathan@gmail.com>"
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/xetorthio/aws.js.git"
+    }
+  , "dependencies": {
+        "xml2js-expat": "0.2.0"
+    }
+  , "devDependencies": {
+    }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.0" }
+}
