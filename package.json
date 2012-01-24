@@ -1,17 +1,31 @@
 {
-    "name": "aws.js"
-  , "version": "0.0.1"
-  , "description": "Dead simple AWS client"
-  , "author": "Jonathan Leibiusky <ionathan@gmail.com>"
-  , "repository":{
-        "type": "git"
-      , "url": "https://github.com/xetorthio/aws.js.git"
-    }
-  , "dependencies": {
+    "name": "aws.js", 
+    "version": "0.1.0", 
+    "description": "Dead simple Amazon Web Services client",
+    "keywords": [
+        "ec2",
+        "amazon",
+        "amazon web services",
+        "aws",
+        "sqs",
+        "s3"
+    ], 
+    "author": "Jonathan Leibiusky <ionathan@gmail.com>", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/xetorthio/aws.js.git"
+    }, 
+    "bugs": {
+        "email": "ionathan@gmail.com",
+        "url": "http://github.com/xetorthio/aws.js/issues"
+    },
+    "dependencies": {
         "xml2js-expat": "0.2.0"
+    }, 
+        "devDependencies": {
+    }, 
+    "main": "index", 
+    "engines": { 
+        "node": ">= 0.4.0" 
     }
-  , "devDependencies": {
-    }
-  , "main": "index"
-  , "engines": { "node": ">= 0.4.0" }
 }
