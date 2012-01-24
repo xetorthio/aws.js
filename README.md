@@ -16,7 +16,7 @@ npm install aws.js
 
 ```javascript
 var client = aws.createClient('secret_access_key', 'aws_access_key_id', 'ec2.amazonaws.com');
-var signature = client.sign('/', 'RunInstances', {'ImageId':'ami-60a54009', 'MaxCount':3, 'MinCount':1, 'Placement.AvailabilityZone':'us-east-1b', 'Monitoring.Enabled':'true'}, function(response) {
+var signature = client.run('/', 'RunInstances', {'ImageId':'ami-60a54009', 'MaxCount':3, 'MinCount':1, 'Placement.AvailabilityZone':'us-east-1b', 'Monitoring.Enabled':'true'}, function(response) {
     console.log('Everything is OK. Here is what amazon API returned:');
     console.log(response);
 }, function(error) {
