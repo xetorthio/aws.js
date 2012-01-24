@@ -22,7 +22,8 @@
     "dependencies": {
         "xml2js-expat": "0.2.0"
     }, 
-        "devDependencies": {
+    "devDependencies": {
+        "mocha": "0.x.x"
     }, 
     "main": "index", 
     "engines": { 
