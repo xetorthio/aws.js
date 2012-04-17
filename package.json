@@ -1,6 +1,6 @@
 {
     "name": "aws.js", 
-    "version": "0.1.0", 
+    "version": "0.2.0", 
     "description": "Dead simple Amazon Web Services client",
     "keywords": [
         "ec2",
