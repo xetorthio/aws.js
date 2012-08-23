@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/xetorthio/aws.js.png)](http://travis-ci.org/xetorthio/aws.js)
 # aws.js
 
 aws.js is a dead simple and sane Amazon Web Services client for node.js
