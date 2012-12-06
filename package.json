@@ -20,7 +20,7 @@
         "url": "http://github.com/xetorthio/aws.js/issues"
     },
     "dependencies": {
-        "xml2js-expat": "0.2.0"
+        "xml2js-expat": "0.2.x"
     }, 
     "devDependencies": {
         "mocha": "0.x.x"
